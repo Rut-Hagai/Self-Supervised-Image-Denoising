@@ -1,0 +1,9 @@
+torch>=2.0
+numpy>=1.24
+scikit-image>=0.21
+scipy>=1.10
+matplotlib>=3.7
+pillow>=10.0
+# experiments/exp_b_zs_n2n.py only
+PyWavelets>=1.4
+bm3d>=4.0

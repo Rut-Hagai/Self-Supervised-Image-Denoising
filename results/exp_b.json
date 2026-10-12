@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "images": 5,
+    "crop": 256,
+    "iterations": 2000,
+    "noise": "gauss25",
+    "seed": 0,
+    "test_dir": "data/Kodak",
+    "threads": 2,
+    "save_images": false
+  },
+  "summary": {
+    "noisy input": {
+      "psnr": 20.441,
+      "ssim": 0.3695,
+      "seconds": 0.0
+    },
+    "gaussian blur": {
+      "psnr": 26.679,
+      "ssim": 0.6647,
+      "seconds": 0.0
+    },
+    "total variation": {
+      "psnr": 27.901,
+      "ssim": 0.7371,
+      "seconds": 0.05
+    },
+    "non-local means": {
+      "psnr": 27.164,
+      "ssim": 0.699,
+      "seconds": 0.11
+    },
+    "ZS-N2N": {
+      "psnr": 29.448,
+      "ssim": 0.7992,
+      "seconds": 317.26
+    },
+    "BM3D": {
+      "psnr": 31.528,
+      "ssim": 0.8732,
+      "seconds": 6.95
+    }
+  }
+}

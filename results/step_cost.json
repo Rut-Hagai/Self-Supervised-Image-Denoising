@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "steps": 200,
+    "warmup": 20,
+    "batch": 4,
+    "patch": 64,
+    "n_feature": 16,
+    "noise": "gauss25",
+    "seed": 0,
+    "train_dir": "data/BSD500_train",
+    "threads": 2,
+    "only": [
+      "supervised",
+      "noise2noise",
+      "noise2void",
+      "neighbor2neighbor"
+    ]
+  },
+  "seconds_per_step": {
+    "supervised": 0.1603,
+    "noise2noise": 0.1574,
+    "noise2void": 0.1597,
+    "neighbor2neighbor": 0.1076,
+    "blind2unblind": 0.5901
+  }
+}

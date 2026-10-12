@@ -1,0 +1,46 @@
+{
+  "settings": {
+    "steps": 800,
+    "batch": 4,
+    "patch": 64,
+    "n_feature": 16,
+    "lr": 0.001,
+    "noise": "gauss25",
+    "seed": 0,
+    "eval_every": 400,
+    "train_dir": "data/BSD500_train",
+    "test_dir": "data/Kodak",
+    "threads": 2
+  },
+  "arms": {
+    "supervised": {
+      "curve": [
+        {
+          "step": 400,
+          "psnr": 22.5629
+        },
+        {
+          "step": 800,
+          "psnr": 22.851
+        }
+      ],
+      "seconds": 212.7,
+      "final_psnr": 22.851
+    },
+    "noise2noise": {
+      "curve": [
+        {
+          "step": 400,
+          "psnr": 22.6035
+        },
+        {
+          "step": 800,
+          "psnr": 22.8497
+        }
+      ],
+      "seconds": 203.2,
+      "final_psnr": 22.8497
+    }
+  },
+  "gap_db": 0.0013
+}

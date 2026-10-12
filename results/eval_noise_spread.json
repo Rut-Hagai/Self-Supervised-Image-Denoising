@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "methods": [
+      "supervised",
+      "noise2void"
+    ],
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "noise": "gauss25",
+    "n_feature": 16,
+    "test_dir": "data/Kodak",
+    "threads": 2
+  },
+  "per_method": {
+    "supervised": {
+      "values": [
+        31.1142,
+        31.1146,
+        31.1187,
+        31.1217,
+        31.1215
+      ],
+      "mean": 31.1181,
+      "spread": 0.0075,
+      "sd": 0.0036
+    },
+    "noise2void": {
+      "values": [
+        29.1944,
+        29.1907,
+        29.1928,
+        29.1957,
+        29.1945
+      ],
+      "mean": 29.1936,
+      "spread": 0.005,
+      "sd": 0.0019
+    }
+  }
+}
